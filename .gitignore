@@ -1,0 +1,27 @@
+# 비밀값
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Airflow 로컬 실행 산출물
+logs/
+airflow.db
+airflow.cfg
+webserver_config.py
+
+# 원본 데이터 덤프
+*.csv
+*.pbix
+
+# OS
+.DS_Store
+Thumbs.db

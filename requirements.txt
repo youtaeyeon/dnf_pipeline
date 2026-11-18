@@ -1,0 +1,18 @@
+# Airflow 2.x (Docker 이미지)에서 실행. 버전은 실행 당시 기록이 없어 고정하지 않음
+apache-airflow-providers-mysql
+
+# 수집·적재
+requests
+python-dotenv
+pymysql
+sqlalchemy
+pandas
+
+# 분석·시각화
+matplotlib
+seaborn
+
+# 노트북 (랭커 목록 구축)
+beautifulsoup4
+selenium
+webdriver-manager
